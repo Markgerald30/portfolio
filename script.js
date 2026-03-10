@@ -4,7 +4,7 @@ const navLinks = document.querySelector('.nav-links');
 menuToggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
     
-    // Optional: Animate hamburger to 'X'
+    // Animate hamburger to 'X'
     menuToggle.classList.toggle('is-active');
 });
 
